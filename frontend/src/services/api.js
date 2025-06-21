@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // Your backend URL
+  baseURL: 'https://code-orbit-scj0.onrender.com/api', // Your backend URL
   withCredentials: true
 });
 
